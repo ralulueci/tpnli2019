@@ -8,5 +8,5 @@ def main():
     args = ap.parse_args()
     model = fasttext.train_supervised(input=args.input, epoch=7, lr=0.01, 
     wordNgrams=3, verbose=20, minCount=3,loss="softmax")
-    model.save_model(args.nameModel)
+    model.save_model(args.nameModel+".bin")
 main()

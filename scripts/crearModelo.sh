@@ -1,2 +1,2 @@
 #!/bin/bash
-python crear_modelo.py entradas/trainInputFt.txt hola
+python crear_modelo.py entradas/trainInputFt.txt $1
