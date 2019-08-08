@@ -2,7 +2,8 @@
 ## TP del curso "Procesamiento del lenguaje natural mediante redes neuronales"
 
 # Author
-
+* Lucia Maité Vázquez
+* Lucas Ponce de León
 
 # USO
 
