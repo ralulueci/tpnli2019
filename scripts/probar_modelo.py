@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import argparse
 import fasttext
 
@@ -6,7 +7,7 @@ def print_results(file,N, p, r):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('input', nargs='?')
+    ap.add_argument('input')
     ap.add_argument('model', nargs='?')
     args = ap.parse_args()
     model = fasttext.load_model(args.model)
